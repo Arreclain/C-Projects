@@ -1,5 +1,29 @@
 ﻿    //Long ago, I was taught to put my variables at the top.
 using System;
+namespace DailyReport{    
+    class Program {
+        //This is an attempt at checking my inputs.  I can add code to convert things to different types.
+        static string assignString(string input)
+        {
+            if (input == null || input == "")
+            {
+                Console.WriteLine("You must enter a string");
+                return "Invalid data type.";
+            }
+            else
+            {
+                return input;
+                //Console.WriteLine(saveLocation);
+            }
+        }
+
+        static bool ToBoolean(string input)
+        {
+            if (input == "true") return true;
+            if (input == "false") return false;
+            else return false;
+        }
+        static void Main(string[] args){
 string name = "no name given";
 string courseName = "no course name given";
 int pageNumber = 0;
@@ -7,31 +31,9 @@ string boolInput = "false";
 bool needHelp = false;
 string positives = "Nothing";
 string feedback = "Nothing";
-string hoursStudied = "None";
+int hoursStudied = 0;
 string tempString = "string";
-int tempInt = 0;
 
-    //This is an attempt at checking my inputs.  I can add code to convert things to different types.
-string assignString(string input)
-{
-    if (input == null || input == "")
-    {
-        Console.WriteLine("You must enter a string");
-        return "Invalid data type.";
-    }
-    else
-    {
-        return input;
-        //Console.WriteLine(saveLocation);
-    }
-}
-
-bool ToBoolean(string input)
-{
-    if (input == "true") return true;
-    if (input == "false") return false;
-    else return false;
-}
 
 //This is where the body of the program lurks.
 //Intro
@@ -48,7 +50,7 @@ tempString = Console.ReadLine();
 courseName = assignString(tempString);
 
 Console.WriteLine("What page number?");
-if (int.TryParse(Console.ReadLine(), out tempInt))
+if (int.TryParse(Console.ReadLine(), out var tempInt))
 {
     pageNumber = tempInt;
 }
@@ -65,8 +67,11 @@ positives = Console.ReadLine();
 Console.WriteLine("This there any other feedback you'd like to provide?");
 feedback = Console.ReadLine();
 
-Console.WriteLine("How many hours did you study?");
-hoursStudied = Console.ReadLine();
+Console.WriteLine("How many hours did you study? Please type a number using only digits.");
+hoursStudied = Convert.ToInt32(Console.ReadLine());
 
 //Conclusion
 Console.WriteLine("Thank you for your answers.  An instructor will respond to this shortly.  Have a great day!");
+        }
+        }
+}
