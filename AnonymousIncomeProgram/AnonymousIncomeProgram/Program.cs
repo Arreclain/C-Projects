@@ -11,13 +11,13 @@ decimal annualSal2 = 0.0m;
 Console.WriteLine("Anonymous Income Comparison Program");
 
 //Gather data
-Console.WriteLine("Person 1 hourly rate as numbers only.");
+Console.WriteLine("Would you please write person 1's hourly rate as numbers only?");
 hourlyRate1 = Convert.ToDecimal(Console.ReadLine());
-Console.WriteLine("Person 1 hours worked per week as numbers only.");
+Console.WriteLine("Would you please write person 1's hours worked per week as numbers only?");
 hoursWorked1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Person 2 hourly rate as numbers only.");
+Console.WriteLine("Would you please write person 2's hourly rate as numbers only?");
 hourlyRate2 = Convert.ToDecimal(Console.ReadLine());
-Console.WriteLine("Person 1 hours worked per week as numbers only.");
+Console.WriteLine("Would you please write person 2's hours worked per week as numbers only?");
 hoursWorked2 = Convert.ToDouble(Console.ReadLine());
 
 //Compute salaries (assuming 52 paid weeks a year)
