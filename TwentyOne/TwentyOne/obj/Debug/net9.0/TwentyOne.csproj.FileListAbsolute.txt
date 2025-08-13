@@ -1,0 +1,15 @@
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/bin/Debug/net9.0/TwentyOne
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/bin/Debug/net9.0/TwentyOne.deps.json
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/bin/Debug/net9.0/TwentyOne.runtimeconfig.json
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/bin/Debug/net9.0/TwentyOne.dll
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/bin/Debug/net9.0/TwentyOne.pdb
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.GeneratedMSBuildEditorConfig.editorconfig
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.AssemblyInfoInputs.cache
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.AssemblyInfo.cs
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.csproj.CoreCompileInputs.cache
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.sourcelink.json
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.dll
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/refint/TwentyOne.dll
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.pdb
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/TwentyOne.genruntimeconfig.cache
+/home/richard/Documents/Programming/GitHub/C-Projects/TwentyOne/TwentyOne/obj/Debug/net9.0/ref/TwentyOne.dll
