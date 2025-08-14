@@ -16,7 +16,9 @@ namespace ThreeMethods{
                 number = Convert.ToInt16(Console.ReadLine());
                 Mathetizer mathMe = new Mathetizer();
                 number = mathMe.SuperAdd(number);
+                Console.WriteLine("Your number currently equals: " + number);
                 number = mathMe.SuperDecrease(number);
+                Console.WriteLine("Your number currently equals: " + number);
                 number = mathMe.SignFlip(number);
                 Console.WriteLine("Your new number equals: " + number);
             }
