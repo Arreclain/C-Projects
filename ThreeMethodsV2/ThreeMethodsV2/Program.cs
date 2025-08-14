@@ -16,7 +16,7 @@ namespace ThreeMethodsV2
                 try
                 {
                     number = Convert.ToInt16(Console.ReadLine());
-                    MathetizerV2 mathMe = new MathetizerV2();
+                    Mathetizer mathMe = new Mathetizer();
                     number = mathMe.Doublify(number);
                     Console.WriteLine("Your number currently equals: " + number);
                     //convert number to a decimal.
@@ -37,26 +37,5 @@ namespace ThreeMethodsV2
                 Console.WriteLine("Exiting program...");
             }
         }
-
-        public class MathetizerV2
-        {
-            public int Doublify(int a)
-            {
-                return a + a;
-            }
-
-            public decimal Doublify(decimal a)
-            {
-                return a * 2;
-            }
-
-            public int Doublify(string a)
-            {
-                int data = int.Parse(a);
-                data = data * 2 +2;
-               return data;
-            }
-        }
-
     }
 }
