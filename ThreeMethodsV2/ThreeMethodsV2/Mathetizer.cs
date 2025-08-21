@@ -11,7 +11,7 @@ public class Mathetizer
 
         public decimal Doublify(decimal a)
         {
-            return a * 2;
+            return (int)(a * 2);
         }
 
         public int Doublify(string a)
