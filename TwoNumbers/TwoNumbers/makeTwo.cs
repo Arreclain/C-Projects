@@ -2,7 +2,7 @@ namespace TwoNumbers;
 
 public static class MakeTwo
 {
-    public static int MakeTwo(int numberOne, int numberTwo = 0)
+    public static int MakeTwoMethod(int numberOne, int numberTwo = 0)
     {
         int solution = -1;
 

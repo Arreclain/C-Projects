@@ -21,7 +21,7 @@ namespace TwoNumbers
             {
                 Console.WriteLine("Okay, second number was optional.  That's okay.  Processing...");
 
-                result = MakeTwo(numberOne);
+                result = MakeTwo.MakeTwoMethod(numberOne);
             }
             else
             {
@@ -30,7 +30,7 @@ namespace TwoNumbers
                     Console.WriteLine("Your number was read as " + userInput + ".  Processing...");
                     numberTwo = Convert.ToInt16(userInput);
 
-                    result = MakeTwo(numberOne, numberTwo);
+                    result = MakeTwo.MakeTwoMethod(numberOne, numberTwo);
                 }
                 catch (Exception)
                 {
