@@ -47,7 +47,11 @@ public class Program
             Console.WriteLine("Who are you again?  Security! Security!!");
         }
 
-        
+        //Code requested to further demonstrate polymorphic behavior.
+        IQuittable refersToEmployee = e02;
+        refersToEmployee.Quit();
+
+
     }
 }
 
