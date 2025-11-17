@@ -6,8 +6,8 @@ namespace _243_Abstract_Class{
 public abstract class Person
 {
     //#1 also give it string properties of 
-    public string firstName;
-    public string lastName;
+    public string FirstName;
+    public string LastName;
 
     //#2, An abstract method named SayName, as requested.
     public abstract void SayName();
