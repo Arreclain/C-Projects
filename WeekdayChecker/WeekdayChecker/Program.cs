@@ -1,6 +1,7 @@
 using System;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
+using static System.Console;
 
 
 namespace WeekdayChecker
@@ -9,20 +10,18 @@ namespace WeekdayChecker
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Can you name a day of the week? \n  We really need one!  Please write the name of a week like so: \n Example \n No punctuation, please.");
+            WriteLine("Can you name a day of the week? \n  We really need one!  Please write the name of a week like so: \n Example \n No punctuation, please.");
+            
             try
             {
-                var input = Console.ReadLine();
-                foreach (Weekdays day in Enum.GetValues(typeof(Weekdays)))
-                {
-                    if (day.ToString() == input){
-                        Console.WriteLine("Thank you.  That was a valid day of the week.");}
-                }
+                Enum.TryParse(ReadLine(),false, out Weekdays input);
+                WriteLine($"The day of the week is {input}");
+               
             }
-            catch (Exception e)
+            catch
             {
-                string e1 = "Please enter an actual day of the week.";
-                throw new ArgumentException(e1);
+               WriteLine( "Please enter an actual day of the week.");
+  
             }
             
         }
