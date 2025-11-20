@@ -8,7 +8,7 @@ public class Program
     {
         //#5  SUMMON THE EMPLOYEE
         //#3 of Polymorphism submission: create an instance of an object that uses the interface.
-Employee<string> e233 = new Employee<string>();
+        Employee<string> e233 = new Employee<string>();
         //#5  NAME HIM Sample Student
         e233.FirstName = "Sample";
         e233.LastName = "Student";
